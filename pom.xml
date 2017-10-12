@@ -49,14 +49,18 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
-  </distributionManagement>
-
-  <dependencies>
+  <repository>
+    <id>internal</id>
+    <name>internal</name>
+    <url>http://localhost:8081/artifactory/internal</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshot</id>
+    <name>snapshot</name>
+    <url>http://localhost:8081/artifactory/snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+   <dependencies>
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
@@ -198,7 +202,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
   <properties>
     <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
     <cargo.maven.containerUrl>http://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
@@ -373,5 +376,4 @@
       </build>
     </profile>
   </profiles>
-
 </project>
