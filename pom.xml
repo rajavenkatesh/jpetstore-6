@@ -49,11 +49,16 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
+    <repository>
+    <id>internal</id>
+    <name>internal</name>
+    <url>http://localhost:8081/artifactory/internal</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshot</id>
+    <name>snapshot</name>
+    <url>http://localhost:8081/artifactory/snapshot</url>
+  </snapshotRepository>
   </distributionManagement>
 
   <dependencies>
