@@ -48,7 +48,7 @@
     <system>Travis CI</system>
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
-  <distributionManagement>
+<distributionManagement>
   <repository>
     <id>internal</id>
     <name>internal</name>
@@ -113,7 +113,18 @@
       <version>3.0.1</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+    <dependency><distributionManagement>
+  <repository>
+    <id>internal</id>
+    <name>internal</name>
+    <url>http://localhost:8081/artifactory/internal</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshot</id>
+    <name>snapshot</name>
+    <url>http://localhost:8081/artifactory/snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
