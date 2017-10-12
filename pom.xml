@@ -373,17 +373,4 @@
       </build>
     </profile>
   </profiles>
-       <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Venkatesh-releases</name>
-        <url>http://localhost:8081/artifactory/jpetstore_local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Venkatesh-snapshots</name>
-        <url>http://localhost:8081/artifactory/jpetstore_local</url>
-    </snapshotRepository>
-</distributionManagement>
-
 </project>
