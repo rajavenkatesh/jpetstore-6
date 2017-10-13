@@ -27,7 +27,7 @@
   </parent>
   <groupId>org.mybatis</groupId>
   <artifactId>jpetstore</artifactId>
-  <version>${carbon.version}</version>
+  <version>${PomVersion}</version>
   <packaging>war</packaging>
 
   <name>JPetStore Demo 6</name>
