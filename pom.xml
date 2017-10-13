@@ -25,10 +25,6 @@
     <version>29</version>
     <relativePath />
   </parent>
-  <properties>
-    <carbon.version>PomVersion</carbon.version>
-  </properties>
-
   <groupId>org.mybatis</groupId>
   <artifactId>jpetstore</artifactId>
   <version>${carbon.version}</version>
