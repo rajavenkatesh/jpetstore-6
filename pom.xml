@@ -25,10 +25,13 @@
     <version>29</version>
     <relativePath />
   </parent>
+  <properties>
+    <carbon.version>PomVersion</carbon.version>
+  </properties>
 
   <groupId>org.mybatis</groupId>
   <artifactId>jpetstore</artifactId>
-  <version>${env.PomVersion}</version>
+  <version>${carbon.version}</version>
   <packaging>war</packaging>
 
   <name>JPetStore Demo 6</name>
