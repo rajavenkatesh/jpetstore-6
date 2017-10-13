@@ -52,12 +52,12 @@
     <repository>
     <id>internal</id>
     <name>internal</name>
-    <url>http://localhost:8081/artifactory/internal</url>
+    <url>http://localhost:8081/artifactory/jpetstore_local</url>
   </repository>
   <snapshotRepository>
     <id>snapshot</id>
     <name>snapshot</name>
-    <url>http://localhost:8081/artifactory/snapshot</url>
+    <url>http://localhost:8081/artifactory/jpetstore_local_snapshot</url>
   </snapshotRepository>
   </distributionManagement>
 
