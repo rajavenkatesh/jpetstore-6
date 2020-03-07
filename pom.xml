@@ -30,7 +30,7 @@
   <version>${PomVersion}</version>
   <packaging>war</packaging>
 
-  <name>JPetStore Demo 6</name>
+  <name>sonar_jpetstore</name>
   <url>http://www.mybatis.org</url>
 
   <scm>
