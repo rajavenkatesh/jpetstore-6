@@ -356,9 +356,9 @@
       </build>
     </profile>
     <profile>
-      <id>jdk6</id>
+      <id>jdk7</id>
       <activation>
-        <jdk>1.6</jdk>
+        <jdk>1.7</jdk>
       </activation>
       <build>
         <pluginManagement>
