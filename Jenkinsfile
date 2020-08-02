@@ -1,6 +1,8 @@
 pipeline {
     agent {
+        docker {
         image 'maven'
+        }
     }
     triggers {
         githubPush()
