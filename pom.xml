@@ -27,7 +27,7 @@
   </parent>
   <groupId>org.mybatis</groupId>
   <artifactId>jpetstore</artifactId>
-  <version>${PomVersion}</version>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>sonar_jpetstore</name>
