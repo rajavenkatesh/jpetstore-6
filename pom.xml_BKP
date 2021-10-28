@@ -32,6 +32,8 @@
 
   <name>sonar_jpetstore</name>
   <url>http://www.mybatis.org</url>
+       
+       <url test>
 
   <scm>
     <url>http://github.com/mybatis/jpetstore-6</url>
